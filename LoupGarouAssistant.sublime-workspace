@@ -1,0 +1,661 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"server",
+				"serverTime"
+			],
+			[
+				"serv",
+				"serverTimeObj"
+			],
+			[
+				"from",
+				"fromEmail"
+			],
+			[
+				"mailin",
+				"mailingList"
+			],
+			[
+				"mai",
+				"mailinglists"
+			],
+			[
+				"send",
+				"[pub] ○ sendEmail (params: MailingList.SendEmail.Params, callback: MailingList.SendEmail.Callback): any"
+			],
+			[
+				"Mail",
+				"MailingList"
+			],
+			[
+				"try",
+				"tryUpdate"
+			],
+			[
+				"str",
+				"[pub] ○ stringify (value: any): string (+ 4 overload(s))"
+			],
+			[
+				"com",
+				"componentWillMount	Life Cycle Method"
+			],
+			[
+				"show",
+				"showPerRow"
+			],
+			[
+				"maili",
+				"mailinglist"
+			],
+			[
+				"mail",
+				"mailinglist"
+			],
+			[
+				"meta",
+				"metaDataBuilder"
+			],
+			[
+				"rou",
+				"routeInfo"
+			],
+			[
+				"len",
+				"[pub] ● length number"
+			],
+			[
+				"read",
+				"  readdir (path: string, callback?: (err: NodeJS.ErrnoException, files: string[]) => void): void"
+			],
+			[
+				"na",
+				"[pub] ● name string"
+			],
+			[
+				"ex",
+				"exclude"
+			],
+			[
+				"exec",
+				"execResult"
+			],
+			[
+				"dependen",
+				"dependencies"
+			],
+			[
+				"npm",
+				"npmLinks"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"GitH",
+				"GitHubProxy"
+			],
+			[
+				"get",
+				"getRepos"
+			],
+			[
+				"resul",
+				"resultingRepos"
+			],
+			[
+				"isE",
+				"[pub] ○ isEmpty (value: any[]): boolean (+ 3 overload(s))"
+			],
+			[
+				"ma",
+				"maxLength"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"ts",
+				"tsdApi"
+			],
+			[
+				"pr",
+				"program"
+			],
+			[
+				"githu",
+				"github"
+			],
+			[
+				"Gith",
+				"GitHubApi"
+			],
+			[
+				"cio",
+				"configPath"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pi",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Projects/LoupGarouAssistant"
+	],
+	"file_history":
+	[
+		"/D/Projects/LoupGarou/webpack.config.js",
+		"/D/Projects/LoupGarou/src/components/Navbar/Navbar.js",
+		"/D/Projects/LoupGarou/src/components/App/App.js",
+		"/D/Shows/The Walking Dead (2010)/tvshow.nfo",
+		"/D/Games/World of Warcraft/WTF/Account/CELLULE/SavedVariables/RazerNaga.lua",
+		"/D/Projects/LoupGarou/src/components/HomePage/package.json",
+		"/D/Projects/TvShowManager/tests/hello.js",
+		"/D/Projects/TvShowManager/tests/intern.js",
+		"/D/Projects/TvShowManager/package.json",
+		"/D/Projects/TvShowManager/tests/tvBd.js",
+		"/D/temp/intern-tutorial/app/hello.js",
+		"/D/temp/intern-tutorial/tests/hello.js",
+		"/D/temp/intern-tutorial/tests/intern.js",
+		"/D/Shows/The Big Bang Theory (2007)/Season 8/The Big Bang Theory - S08E10 - The Champagne Reflection.nfo",
+		"/D/Shows/The Walking Dead (2010)/Season 5/The Walking Dead - S05E05 - Self Help.nfo",
+		"/D/Projects/TvShowManager/lib/TvDb/methods.js",
+		"/D/Projects/TvShowManager/lib/TvDb/test.js",
+		"/D/temp/intern-tutorial/package.json",
+		"/D/temp/package.json",
+		"/D/Projects/TvShowManager/lib/TvDb/config.json5",
+		"/D/Projects/TvShowManager/lib/TvDb/index.js",
+		"/D/Projects/TvShowManager/lib/requireHooks.js",
+		"/D/Projects/TvShowManager/__tests__/tvDb.js",
+		"/D/Projects/TvShowManager/tests/tvDb.js",
+		"/D/temp/node_modules/jest-cli/bin/jest.js",
+		"/D/temp/node_modules/.bin/jest",
+		"/D/temp/node_modules/.bin/jest.cmd",
+		"/D/temp/__tests__/sum-test.js",
+		"/D/temp/__tests__/tvDb.js",
+		"/D/Projects/TvShowManager/sum.js",
+		"/D/Projects/TvShowManager/lib/server.js",
+		"/D/Projects/TvShowManager/requireHooks.js",
+		"/D/Projects/TvShowManager/config/settings.js",
+		"/D/Projects/TvShowManager/make-webpack-config.js",
+		"/D/Projects/TvShowManager/app/mainRoutes.jsx",
+		"/C/Mike/ModuleWebsite/service.website/package.json",
+		"/D/Projects/TvShowManager/app/TodoList/index.jsx",
+		"/D/Projects/TvShowManager/app/TodoItem/index.jsx",
+		"/D/Projects/TvShowManager/lib/controllers/list.js",
+		"/D/Projects/TvShowManager/app/Application/index.jsx",
+		"/D/Games/World of Warcraft/WTF/Account/CELLULE/SavedVariables/Altoholic.lua",
+		"/D/Games/World of Warcraft/WTF/Account/CELLULE/SavedVariables.lua",
+		"/D/Projects/TvShowManager/app/components/ShowList.jsx",
+		"/C/Mike/ModuleWebsite/service.website/styles/modweb.less",
+		"/D/Projects/Novivia/prototype.websockets-transport/webpack.config.js",
+		"/D/Projects/TvShowManager/app/styles/index.less",
+		"/C/Mike/ModuleWebsite/service.website/entry/modweb.js",
+		"/D/Projects/reappTest/package.json",
+		"/D/Projects/TvShowManager/node_modules/react-bootstrap/package.json",
+		"/C/Mike/temp/node_modules/react-bootstrap/package.json",
+		"/D/Projects/react-bootstrap/package.json",
+		"/C/Users/Mike/AppData/Roaming/npm/node_modules/reapp/node_modules/reapp-pack/package.json",
+		"/D/Projects/TvShowManager/lib/database/index.js",
+		"/D/Projects/reappTest/app/app.js",
+		"/D/Projects/TvShowManager/lib/controllers/bundle.js",
+		"/D/Projects/TvShowManager/lib/controllers/index.js",
+		"/D/Projects/TvShowManager/lib/controllers/todo.js",
+		"/D/Projects/reappTest/app/routes.js",
+		"/D/Projects/TvShowManager/lib/DB.js",
+		"/D/Projects/TvShowManager/node_modules/webpack/lib/ConstPlugin.js",
+		"/D/Projects/TvShowManager/TvShowManager.sublime-project",
+		"/C/Users/Mike/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/Projects/Novivia/prototype.websockets-transport/components/Lobby.jsx",
+		"/D/Projects/Novivia/prototype.websockets-transport/package.json5",
+		"/D/Projects/Novivia/prototype.websockets-transport/Run_Script_assets-dev.bat",
+		"/D/Projects/Novivia/prototype.websockets-transport/RunServer.bat",
+		"/C/Mike/afmassotherapie/index.html",
+		"/C/Mike/ModuleWebsite/service.website/app.ts",
+		"/C/Mike/.ssh/putty_rsa.ppk",
+		"/C/Users/Mike/AppData/Roaming/Sublime Text 3/Packages/ArcticTypescript/lib/system/Settings.py",
+		"/C/Users/Mike/AppData/Roaming/Sublime Text 3/Packages/ArcticTypescript/lib/system/Project.py",
+		"/D/Projects/ArcticTypescript/lib/system/Settings.py",
+		"/C/Users/Mike/AppData/Roaming/Sublime Text 3/Packages/ArcticTypescript/README.md",
+		"/C/Mike/tuto_flow/node_modules/flow/flow.js",
+		"/C/Mike/tuto_flow/node_modules/flow/examples/simple.js",
+		"/C/Mike/tuto_flow/node_modules/flow/package.json",
+		"/C/Mike/Hanabi/Hanabi/package.json",
+		"/D/Games/World of Warcraft/Interface/AddOns/AutoQuest 2/Libs/GhettoLibs-1.0/GhettoLibs-1.0.lua",
+		"/D/Games/World of Warcraft/Interface/AddOns/AutoQuest 2/ChangeLog.txt",
+		"/D/Projects/AutoQuestingTools/AutoQuestingTools.lua",
+		"/D/Games/World of Warcraft/Interface/AddOns/AutoQuest 2/Modules/Database.lua",
+		"/D/Games/World of Warcraft/Interface/AddOns/AutoQuest 2/Readme.txt",
+		"/D/Games/World of Warcraft/Interface/AddOns/AutoQuest 2/embeds.xml",
+		"/D/Games/World of Warcraft/Interface/AddOns/AutoQuest 2/AutoQuest 2.toc",
+		"/D/Games/World of Warcraft/Interface/AddOns/Altoholic/Altoholic.toc",
+		"/D/Games/World of Warcraft/Interface/AddOns/AutoQuest/AutoQuest.lua",
+		"/D/Games/World of Warcraft/Interface/AddOns/AutoQuest/AutoQuest.toc",
+		"/D/Games/World of Warcraft/Interface/AddOns/AutoQuest 2/Locales/enUS.lua",
+		"/C/Mike/ModuleWebsite/module.utils/index.ts",
+		"/C/Mike/ModuleWebsite/module.utils/typings/modweb-utils/modweb-utils.d.ts",
+		"/C/Mike/ModuleWebsite/module.utils/lib/BasicModuleBridge.js",
+		"/C/Mike/ModuleWebsite/module.utils/lib/BasicModuleBridge.ts",
+		"/D/Games/World of Warcraft/Interface/AddOns/AutoQuest/AutoQuest.xml",
+		"/C/Mike/ModuleWebsite/module.utils/lib/BaseModule.ts",
+		"/C/Mike/ModuleWebsite/module.utils/typings/modweb/modweb.d.ts",
+		"/C/Mike/ModuleWebsite/module.utils/package.json",
+		"/C/Mike/ModuleWebsite/module.utils/typings/tsd.d.ts",
+		"/C/Mike/ModuleWebsite/module.utils/frontend/getRouteName.ts",
+		"/C/Mike/ModuleWebsite/module.utils/errors/index.ts",
+		"/C/Mike/ModuleWebsite/module.utils/errors/ModWebError.ts",
+		"/C/Mike/ModuleWebsite/module.utils/lib/MetaDataBuilder.ts",
+		"/C/Mike/ModuleWebsite/module.utils/typings/modweb-utils/errors/ApplicationError.d.ts",
+		"/C/Mike/ModuleWebsite/module.utils/typings/modweb-utils/errors/DatabaseError.d.ts",
+		"/C/Mike/ModuleWebsite/module.utils/tests/errorsTests.ts",
+		"/C/Mike/ModuleWebsite/module.utils/lib/ModuleControllersBinder.ts",
+		"/C/Mike/ModuleWebsite/module.utils/errors/DatabaseError.ts",
+		"/C/Mike/ModuleWebsite/module.utils/errors/ApplicationError.ts",
+		"/C/Mike/ModuleWebsite/module.utils/tsd.json",
+		"/C/Mike/ModuleWebsite/module.utils/typings/modweb-utils/errors/ModWebError.d.ts",
+		"/C/Mike/ModuleWebsite/module.utils/.gitignore",
+		"/C/Mike/ModuleWebsite/module.utils/errors/MyKoopError.js",
+		"/C/Mike/ModuleWebsite/service.website/tsd-dt.json",
+		"/C/Mike/MyKoop/module.communications/package.json",
+		"/C/Mike/MyKoop/module.mailing-list/styles/index.less",
+		"/C/Mike/MyKoop/module.mailing-list/lib/controllers/index.ts",
+		"/C/Mike/MyKoop/module.mailing-list/locales/fr/mailinglist.json5",
+		"/C/Mike/MyKoop/module.mailing-list/locales/en/mailinglist.json5",
+		"/C/Mike/MyKoop/module.mailing-list/components/RegisterMailingList.jsx",
+		"/C/Mike/MyKoop/module.mailing-list/components/MailingListEditPanel.jsx",
+		"/C/Mike/MyKoop/module.mailing-list/components/MailingListAdminPage.jsx",
+		"/C/Mike/githubstats/index.js",
+		"/C/Mike/MyKoop/module.communications/tsd.json",
+		"/C/Mike/MyKoop/module.mailing-list/typings/mykoop-mailing-list/interfaces.d.ts",
+		"/C/Mike/MyKoop/module.mailing-list/components/SendEmailPage.jsx",
+		"/C/Mike/MyKoop/module.mailing-list/lib/module.ts",
+		"/C/Mike/MyKoop/module.mailing-list/metadata/endpoints.ts",
+		"/C/Mike/MyKoop/module.mailing-list/locales/en/general.json5",
+		"/C/Mike/MyKoop/module.mailing-list/locales/fr/general.json5"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+			"<open folders>",
+			"<open folders>,-*/node_modules/*",
+			"<open folders>",
+			"C:\\mike\\mykoop,-*node_modules/*",
+			"<open files>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\",",
+			"\n",
+			";",
+			"\n",
+			";",
+			"getItemInfo",
+			"loaders",
+			"additionalLoaders",
+			"__resourceQuery",
+			"obj",
+			"this.state.currentGameId",
+			"enums",
+			"lib/enums",
+			"remoteResources",
+			"ctrl+d",
+			"this",
+			"ProjectError",
+			"_on_create_project",
+			"show_quick_panel",
+			"one root file",
+			"You didn't",
+			"canComplete",
+			"CheckKeyorOption",
+			"print",
+			"index+",
+			"DoesQuestMatch",
+			"HideUIPanel",
+			"isDaily",
+			"true",
+			"DoesQuestMatch",
+			"for",
+			"QuestFrame",
+			"module:CheckKeyorOption(\"daily\")",
+			"module:CheckKeyorOption(\"readytoplay\")",
+			"module:CheckKeyorOption(\"trivial\")",
+			"module:CheckKeyorOption(\"accept\")",
+			"module:CheckKeyorOption(\"complete\")",
+			"CheckKeyorOption",
+			"DoesQuestMatch",
+			"Reset Modules done",
+			"CheckKeyorOption(\"complete\")",
+			"complete",
+			"OptionToString",
+			"CheckKeyorOption",
+			"Modified",
+			"GetMo",
+			"OptionToString",
+			"GetNumActiveQuests",
+			"QUEST_GREETING",
+			"OptionToString",
+			"IsModifiedClick",
+			"Looking for ",
+			"warnedAutoAccept",
+			"QUEST_GREETING",
+			"optFunc",
+			"Paranoia",
+			"override",
+			"core.db.profile.override",
+			"core.db.profile",
+			"profile",
+			"override",
+			"ModuleBridge",
+			"BaseModule",
+			"MyKoop",
+			"mykoop",
+			"MyKoop",
+			"mykoop",
+			"MyKoop",
+			"mykoop",
+			"my-koop",
+			"mykoop",
+			"RichTextBox",
+			"user",
+			"RichTextBox",
+			"Col",
+			"Input",
+			"Panel",
+			"div",
+			"BSPanel",
+			"Input",
+			"key",
+			"GetConfigurations",
+			"getConfigurations(",
+			"getConfigurations",
+			"setConfigurations",
+			"Get",
+			"get",
+			"Get",
+			"get",
+			");",
+			"GetConfigurations",
+			"getConfigurations",
+			"div",
+			"newRegistered",
+			"firstName",
+			"firstname",
+			"RegisterAccountInfo",
+			"feed",
+			"setf",
+			"faire",
+			"getValues",
+			"newMl",
+			"mls",
+			"ml",
+			"ml[^-]?",
+			"ml[^-]",
+			"ml",
+			".ValidationError",
+			"myKoopContributions[author]",
+			"total",
+			"method",
+			"params",
+			"components/PlaceHolder",
+			"MKPlaceHolder",
+			"PlaceHolder",
+			"validate",
+			"import",
+			"ctrl+b",
+			"ctrl+k\", \"ctrl+b",
+			"panel",
+			"view",
+			"folder",
+			"hide",
+			"links",
+			"fs",
+			"util",
+			"exclude",
+			"filterMykoopRepo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"mailingList",
+			";$1\\n",
+			"$1",
+			";\\n",
+			");\\n",
+			"",
+			"$+{arg}$+{content}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "D:\\Projects\\LoupGarou",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "LoupGarouAssistant.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"selected_items":
+		[
+			[
+				"core",
+				"C:\\Mike\\ModuleWebsite\\module.core\\core.sublime-project"
+			],
+			[
+				"servi",
+				"C:\\Mike\\MyKoop\\service.website\\website.sublime-project"
+			],
+			[
+				"commu",
+				"C:\\Mike\\MyKoop\\module.communications\\communications.sublime-project"
+			],
+			[
+				"tran",
+				"C:\\Mike\\MyKoop\\module.transaction\\transaction.sublime-project"
+			],
+			[
+				"user",
+				"C:\\Mike\\MyKoop\\module.user\\user.sublime-project"
+			],
+			[
+				"comm",
+				"C:\\Mike\\MyKoop\\module.communications\\communications.sublime-project"
+			],
+			[
+				"event",
+				"C:\\Mike\\MyKoop\\module.event\\event.sublime-project"
+			],
+			[
+				"transaction",
+				"C:\\Mike\\MyKoop\\module.transaction\\transaction.sublime-project"
+			],
+			[
+				"utils",
+				"C:\\Mike\\MyKoop\\module.utils\\utils.sublime-project"
+			],
+			[
+				"trans",
+				"C:\\Mike\\MyKoop\\module.transaction\\transaction.sublime-project"
+			],
+			[
+				"tra",
+				"C:\\Mike\\MyKoop\\module.transaction\\transaction.sublime-project"
+			],
+			[
+				"webs",
+				"C:\\Mike\\MyKoop\\service.website\\website.sublime-project"
+			],
+			[
+				"logger",
+				"C:\\Mike\\MyKoop\\module.logger\\logger.sublime-project"
+			],
+			[
+				"inven",
+				"C:\\Mike\\MyKoop\\module.inventory\\inventory.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
