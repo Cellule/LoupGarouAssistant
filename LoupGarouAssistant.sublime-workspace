@@ -144,9 +144,58 @@
 	"buffers":
 	[
 		{
+			"file": "app/actions.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 151,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/mainStores.js",
+			"settings":
+			{
+				"buffer_size": 3866,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/mainRoutes.jsx",
+			"settings":
+			{
+				"buffer_size": 616,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/controllers/bundle.js",
+			"settings":
+			{
+				"buffer_size": 1116,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/app.jsx",
+			"settings":
+			{
+				"buffer_size": 1513,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/controllers/list.js",
+			"settings":
+			{
+				"buffer_size": 1062,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/server.js",
+			"settings":
+			{
+				"buffer_size": 813,
 				"line_ending": "Windows"
 			}
 		}
@@ -160,6 +209,10 @@
 			[
 				"pi",
 				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: List Unmanaged Packages"
 			]
 		],
 		"width": 528.0
@@ -184,10 +237,24 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Projects/LoupGarouAssistant"
+		"/D/Projects/LoupGarouAssistant",
+		"/D/Projects/LoupGarouAssistant/app",
+		"/D/Projects/LoupGarouAssistant/app/TodoList",
+		"/D/Projects/LoupGarouAssistant/build",
+		"/D/Projects/LoupGarouAssistant/config",
+		"/D/Projects/LoupGarouAssistant/lib",
+		"/D/Projects/LoupGarouAssistant/lib/controllers",
+		"/D/Projects/LoupGarouAssistant/lib/database",
+		"/D/Projects/LoupGarouAssistant/node_modules",
+		"/D/Projects/LoupGarouAssistant/node_modules/babel-core",
+		"/D/Projects/LoupGarouAssistant/node_modules/babel-loader"
 	],
 	"file_history":
 	[
+		"/C/Users/Mike/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Mike/AppData/Roaming/Sublime Text 3/Local/Session.sublime_session",
+		"/D/Projects/LoupGarouAssistant/config/settings.js",
+		"/D/Projects/LoupGarouAssistant/package.json",
 		"/D/Projects/LoupGarou/webpack.config.js",
 		"/D/Projects/LoupGarou/src/components/Navbar/Navbar.js",
 		"/D/Projects/LoupGarou/src/components/App/App.js",
@@ -311,11 +378,7 @@
 		"/C/Mike/githubstats/index.js",
 		"/C/Mike/MyKoop/module.communications/tsd.json",
 		"/C/Mike/MyKoop/module.mailing-list/typings/mykoop-mailing-list/interfaces.d.ts",
-		"/C/Mike/MyKoop/module.mailing-list/components/SendEmailPage.jsx",
-		"/C/Mike/MyKoop/module.mailing-list/lib/module.ts",
-		"/C/Mike/MyKoop/module.mailing-list/metadata/endpoints.ts",
-		"/C/Mike/MyKoop/module.mailing-list/locales/en/general.json5",
-		"/C/Mike/MyKoop/module.mailing-list/locales/fr/general.json5"
+		"/C/Mike/MyKoop/module.mailing-list/components/SendEmailPage.jsx"
 	],
 	"find":
 	{
@@ -490,35 +553,210 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "app/actions.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 151,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								151,
+								151
 							]
 						],
 						"settings":
 						{
-							"default_dir": "D:\\Projects\\LoupGarou",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/mainStores.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2730,
+								2730
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1320.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/mainRoutes.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								616,
+								616
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript(JSX).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/controllers/bundle.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								954,
+								954
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "config/app.jsx",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								623,
+								623
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript(JSX).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/controllers/list.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1062,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1062,
+								1062
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "lib/server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								589,
+								589
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -578,6 +816,10 @@
 		"height": 625.0,
 		"selected_items":
 		[
+			[
+				"pi",
+				"D:\\Projects\\prototype.websockets-transport\\hanabi.sublime-workspace"
+			],
 			[
 				"core",
 				"C:\\Mike\\ModuleWebsite\\module.core\\core.sublime-project"
