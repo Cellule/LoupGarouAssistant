@@ -1,5 +1,6 @@
 var React = require("react");
 var Link = require("react-router").Link;
+import BSPanel from "react-bootstrap/Panel";
 
 module.exports = React.createClass({
 	render: function() {
