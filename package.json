@@ -9,7 +9,8 @@
     "hot-dev-server": "webpack-dev-server --config webpack-hot-dev-server.config.js --hot --progress --colors --port 2992 --inline",
     "build": "webpack --config webpack-production.config.js --progress --profile --colors",
     "start-dev": "node lib/server-development",
-    "start": "node lib/server-production"
+    "start": "node lib/server-production",
+    "lint": "jsxhint --babel --jsx-only --exclude node_modules/** app/**/*.js* lib/**/*.js"
   },
   "keywords": [
     "webpack",
@@ -49,6 +50,8 @@
     "babel-core": "^4.5.3",
     "babel-loader": "^4.0.0",
     "bootstrap": "^3.3.2",
+    "jsxhint": "^0.12.1",
+    "react-a11y": "0.0.6",
     "react-bootstrap": "^0.15.1"
   }
 }

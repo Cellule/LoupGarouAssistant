@@ -4,8 +4,9 @@ var Route = Router.Route;
 var DefaultRoute = Router.DefaultRoute;
 
 // polyfill
-if(!Object.assign)
+if(!Object.assign) {
 	Object.assign = React.__spread;
+}
 
 // export routes
 module.exports = (

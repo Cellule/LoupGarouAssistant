@@ -21,18 +21,20 @@ function mergeUpdates(a, b) {
 					case "$merge":
 						var o = res[key] = {};
 						Object.keys(a[key]).forEach(function(x) {
-							o[x] = a[key][x]
+							o[x] = a[key][x];
 						});
 						Object.keys(b[key]).forEach(function(x) {
-							o[x] = b[key][x]
+							o[x] = b[key][x];
 						});
 						break;
 				}
 				res[key] = mergeUpdates(a[key], b[key]);
-			} else if(a[key])
+			} else if(a[key]) {
 				res[key] = a[key];
-			else
+			}
+			else {
 				res[key] = b[key];
+			}
 		});
 	}
 	return a || b;
@@ -65,4 +67,4 @@ module.exports = {
 			};
 		}
 	}
-}
+};

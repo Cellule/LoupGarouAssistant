@@ -13,8 +13,9 @@ var TodoList = React.createClass({
 				id: params.list,
 				list: list,
 				items: list && list.map(function(item) {
-					if(typeof item === "string")
+					if(typeof item === "string") {
 						return stores.TodoItem.getItem(item);
+					}
 				}.bind(this)),
 				// get more info about the item
 				info: stores.TodoList.getItemInfo(params.list)

@@ -8,7 +8,7 @@ var ReactUpdates = require("react/lib/ReactUpdates");
 function batchedCallback(callback) {
 	return function(err, res) {
 		ReactUpdates.batchedUpdates(callback.bind(null, err, res));
-	}
+	};
 }
 
 function writeAndReadSingleItem(path, resultHandler) {
@@ -19,12 +19,15 @@ function writeAndReadSingleItem(path, resultHandler) {
 			.type("json")
 			.send(options.update)
 			.end(batchedCallback(function(err, res) {
-				if(err) return callback(err);
-				if(res.status !== 200)
+				if(err) {
+					return callback(err);
+				}
+				if(res.status !== 200) {
 					return callback(new Error("Request failed with " + res.status + ": " + res.text));
+				}
 				callback(null, resultHandler(res.body));
 			}));
-	}
+	};
 }
 
 function readSingleItem(path, resultHandler) {
@@ -34,12 +37,15 @@ function readSingleItem(path, resultHandler) {
 			.set("Accept", "application/json")
 			.type("json")
 			.end(batchedCallback(function(err, res) {
-				if(err) return callback(err);
-				if(res.status !== 200)
+				if(err) {
+					return callback(err);
+				}
+				if(res.status !== 200) {
 					return callback(new Error("Request failed with " + res.status + ": " + res.text));
+				}
 				callback(null, resultHandler(res.body));
 			}));
-	}
+	};
 }
 
 function readMultipleItems(path, resultHandler) {
@@ -51,12 +57,15 @@ function readMultipleItems(path, resultHandler) {
 			.set("Accept", "application/json")
 			.type("json")
 			.end(batchedCallback(function(err, res) {
-				if(err) return callback(err);
-				if(res.status !== 200)
+				if(err) {
+					return callback(err);
+				}
+				if(res.status !== 200) {
 					return callback(new Error("Request failed with " + res.status + ": " + res.text));
+				}
 				callback(null, resultHandler(res.body));
 			}));
-	}
+	};
 }
 
 // a queue that allows only one REST request at a time

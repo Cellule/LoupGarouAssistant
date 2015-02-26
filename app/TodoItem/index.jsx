@@ -1,6 +1,5 @@
 var React = require("react");
 var State = require("react-router").State;
-var Link = require("react-router").Link;
 var StateFromStoreMixin = require("items-store/StateFromStoresMixin");
 var Todo = require("../actions").Todo;
 
@@ -24,7 +23,7 @@ var TodoItem = React.createClass({
 		var info = this.state.info;
 		// item is undefined on initial load
 		if(!item) {
-			return <div>Initial load from server...</div>
+			return <div>Initial load from server...</div>;
 		}
 		// We use a special error data for mark errored items
 		// see ../mainStoresDescriptions.js
@@ -44,7 +43,7 @@ var TodoItem = React.createClass({
 				});
 			}} /></p>
 			{ info.updated ? <p>Syncing to server...</p> : info.outdated ? <p>Syncing from server...</p> : null }
-		</div>
+		</div>;
 	}
 });
 module.exports = TodoItem;
