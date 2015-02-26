@@ -3,8 +3,15 @@
   "version": "0.0.0",
   "description": "",
   "main": "app/app.js",
+  "jest": {
+    "rootDir": ".",
+    "scriptPreprocessor": "./preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "react"
+    ]
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run lint&&jest",
     "dev-server": "webpack-dev-server --config webpack-dev-server.config.js --progress --colors --port 2992 --inline",
     "hot-dev-server": "webpack-dev-server --config webpack-hot-dev-server.config.js --hot --progress --colors --port 2992 --inline",
     "build": "webpack --config webpack-production.config.js --progress --profile --colors",
@@ -50,6 +57,7 @@
     "babel-core": "^4.5.3",
     "babel-loader": "^4.0.0",
     "bootstrap": "^3.3.2",
+    "jest-cli": "^0.4.0",
     "jsxhint": "^0.12.1",
     "react-a11y": "0.0.6",
     "react-bootstrap": "^0.15.1"
