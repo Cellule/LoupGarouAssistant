@@ -1,0 +1,33 @@
+{
+  // install/enable parser once/if using es6
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true
+  },
+  "globals": {
+    "__DEV__": false,
+    "__PROD__": false,
+    "__StoreData": false,
+    "jest": false
+  },
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "rules": {
+    // First number is error level 0: ignore, 1: warning, 2: error
+    // Second is option ie: [1, "double"] = Warn using double option
+
+    // Code style
+    "indent": [2, 2],
+    "quotes": [2, "double"],
+
+    // Disable default options
+    "no-multi-spaces": 0,
+    "no-mixed-requires": 0,
+    "no-underscore-dangle": 0,
+    "strict": 0,
+    "no-comma-dangle": 0,
+  }
+}
