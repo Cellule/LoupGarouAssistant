@@ -1,5 +1,6 @@
 module.exports = require("./make-webpack-config")({
 	devServer: true,
 	devtool: "eval",
-	debug: true
+	debug: true,
+  dev: true
 });

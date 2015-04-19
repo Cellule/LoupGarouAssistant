@@ -2,5 +2,10 @@
   targets: {
     global: ["lib", ],
     frontend: ["app"]
+  },
+  extraRules: {
+    global: {
+      parser: null
+    }
   }
 }
