@@ -4,7 +4,7 @@
   "description": "",
   "main": "app/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "gulp test",
     "dev-server": "webpack-dev-server --config webpack-dev-server.config.js --progress --colors --port 2992 --inline",
     "hot-dev-server": "webpack-dev-server --config webpack-hot-dev-server.config.js --hot --progress --colors --port 2992 --inline",
     "build": "webpack --config webpack-production.config.js --progress --profile --colors",
@@ -36,7 +36,11 @@
     "items-store": "^0.6.1",
     "less": "^2.1.2",
     "less-loader": "^2.0.0",
+    "lodash": "^3.7.0",
+    "logger-manager": "^1.0.3",
+    "machina": "^1.0.0",
     "markdown-loader": "^0.1.2",
+    "module-logger": "^0.1.1",
     "morgan": "^1.5.2",
     "null-loader": "^0.1.0",
     "react": "^0.13.1",
@@ -51,5 +55,11 @@
     "uuid": "^2.0.1",
     "webpack": "^1.8.5",
     "webpack-dev-server": "^1.4.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jasmine": "^2.0.1",
+    "jasmine": "^2.2.1",
+    "through2": "^0.6.5"
   }
 }
