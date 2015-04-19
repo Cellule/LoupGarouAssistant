@@ -1,0 +1,6 @@
+{
+  targets: {
+    global: ["lib", ],
+    frontend: ["app"]
+  }
+}
