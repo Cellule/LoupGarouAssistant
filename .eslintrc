@@ -4,7 +4,10 @@
   "env": {
     "node": true
   },
-  "globals": {},
+  "globals": {
+    "__DEV__": false,
+    "__PROD__": false
+  },
   "plugins": ["shadow-exception"],
   "ecmaFeatures": {
     "arrowFunctions": true,

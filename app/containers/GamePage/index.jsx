@@ -1,6 +1,5 @@
-//import React from "react";
 var React = require("react");
-import Player from "components/Player";
+var Player = require("components/Player");
 
 export default class HomePage extends React.Component {
   static getProps() {
@@ -10,7 +9,7 @@ export default class HomePage extends React.Component {
     return (
       <div>
         <h2>LoupGarou</h2>
-        <Player name="Test" />
+        <Player />
       </div>
     );
   }

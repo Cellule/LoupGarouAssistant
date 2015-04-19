@@ -1,10 +1,9 @@
 var React = require("react");
 
-Player.propTypes = {
-  name: React.PropTypes.string.isRequired
-};
-
 export default class Player extends React.Component {
+  static getProps() {
+    return {name: "Test"};
+  }
   render() {
     return (
       <div>
@@ -14,4 +13,6 @@ export default class Player extends React.Component {
   }
 }
 
-
+Player.propTypes = {
+  name: React.PropTypes.string.isRequired
+};
