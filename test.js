@@ -1,7 +1,19 @@
-var _ = require("lodash");
+"use strict";
 
-var elem = {test: 2};
-var array = [{e: elem}, {e:12}];
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = logTodo;
+var getCallStack = require("./getCallStack");
 
-console.dir(_.remove(array, function(a){return a.e === elem}));
-console.dir(array);
+function logTodo() {
+  for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+
+  args.unshift("TODO::");
+  args.push(getCallStack(1, 2));
+  console.warn.apply(console, args);
+}
+
+module.exports = exports["default"];
