@@ -5,7 +5,6 @@
   },
   extraRules: {
     global: {
-      parser: null,
       globals: {
         __DEV__: false,
         __PROD__: false,

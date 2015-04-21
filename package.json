@@ -37,7 +37,6 @@
     "less": "^2.1.2",
     "less-loader": "^2.0.0",
     "lodash": "^3.7.0",
-    "logger-manager": "^1.0.3",
     "machina": "^1.0.0",
     "markdown-loader": "^0.1.2",
     "module-logger": "^0.1.1",
