@@ -8,7 +8,6 @@ import TodoPage     from "./routeHandlers/TodoPage";
 import TodoListPage from "./routeHandlers/TodoListPage";
 import TodoItemPage from "./routeHandlers/TodoItemPage";
 import HomePage     from "./routeHandlers/HomePage";
-import GamePage     from "./routeHandlers/GamePage";
 import NotFoundPage from "./routeHandlers/NotFoundPage";
 
 // polyfill
@@ -25,8 +24,7 @@ module.exports = (
 			<Route name="todoitem" path="item/:item" handler={TodoItemPage} />
 		</Route>
 		<Route name="home" path="/home" handler={HomePage} />
-		<Route name="game" path="/game" handler={GamePage} />
-		<DefaultRoute handler={GamePage} />
+		<DefaultRoute handler={HomePage} />
 		<NotFoundRoute handler={NotFoundPage} />
 	</Route>
 );

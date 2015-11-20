@@ -77,10 +77,6 @@ module.exports = function(options) {
 				});
 			}
 		},
-		new webpack.DefinePlugin({
-			__DEV__: options.dev,
-			__PROD__: !options.dev
-		}),
 		new webpack.PrefetchPlugin("react"),
 		new webpack.PrefetchPlugin("react/lib/ReactComponentBrowserEnvironment")
 	];
