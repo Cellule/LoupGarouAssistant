@@ -10,6 +10,7 @@ const HTTPS = process.env.HTTPS ?? "true";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/LoupGarouAssistant",
   plugins: [vue()],
   server: {
     https: getDevServerHttps(),
