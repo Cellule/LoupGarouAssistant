@@ -20,14 +20,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+          cache: "yarn"
 
       - name: install
         run: |
-          npm install
+          yarn install
 
       - name: build
         run: |
-          npm run build
+          yarn build
 
   # cypress:
   #   runs-on: ubuntu-latest
