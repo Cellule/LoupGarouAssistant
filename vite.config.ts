@@ -1,7 +1,11 @@
-import vue from "@vitejs/plugin-vue";
-import fs from "node:fs";
-import path from "node:path";
-import { defineConfig } from "vite";
+import { fileURLToPath, URL } from 'node:url'
+
+import vue from '@vitejs/plugin-vue'
+import vueJsx from '@vitejs/plugin-vue-jsx'
+import fs from "node:fs"
+import path from "node:path"
+import { defineConfig } from 'vite'
+import vueDevTools from 'vite-plugin-vue-devtools'
 
 const credsDir = process.env.CERTS ?? path.join(import.meta.dirname, "certs");
 const keyFilePath = path.join(credsDir, "localhost-key.pem");
@@ -11,11 +15,20 @@ const HTTPS = process.env.HTTPS ?? "true";
 // https://vitejs.dev/config/
 export default defineConfig({
   base: "/LoupGarouAssistant",
-  plugins: [vue()],
+  plugins: [
+    vue(),
+    vueJsx(),
+    vueDevTools(),
+  ],
+  resolve: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url))
+    }
+  },
   server: {
     https: getDevServerHttps(),
   },
-});
+})
 
 function getDevServerHttps(): import("https").ServerOptions | undefined {
   if (HTTPS !== "true" || process.env.NODE_ENV !== "development") {
@@ -32,3 +45,4 @@ function getDevServerHttps(): import("https").ServerOptions | undefined {
     return undefined;
   }
 }
+
